@@ -1,0 +1,50 @@
+:root {
+    --green: rgb(172, 237, 91);
+    --white: white;
+}
+
+*{
+    background-color: rgb(48, 48, 50);
+    margin: 5px;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    color: var(--green, green);
+
+}
+
+header p {
+    color: var(--white, white);
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: var(--white);
+}
+
+main section {
+    outline: 5px dashed var(--white);
+    border: 1px dashed var(--green);
+    border-radius: 15px;
+    display: inline-block;
+    margin: 50px;
+}
+
+footer {
+    font-size: 24px;
+    text-align: center;
+    color: var(--green);
+}
+
+.code-title {
+    border: 5px solid var(--green);
+    color: var(--green);
+}
+
+.code {
+    color: var(--white);
+}
